@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="myshop-address-server" />
+        <module name="myshop-brand-server" />
+        <module name="myshop-cart-server" />
+        <module name="myshop-commons" />
+        <module name="myshop-commons-mapper" />
+        <module name="myshop-commons-service" />
+        <module name="myshop-databases" />
+        <module name="myshop-facade" />
+        <module name="myshop-news-server" />
+        <module name="myshop-order-server" />
+        <module name="myshop-pay-server" />
+        <module name="myshop-product-server" />
+        <module name="myshop-producttype-server" />
+        <module name="myshop-user-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="myshop-address-server" target="1.8" />
+      <module name="myshop-brand-server" target="1.8" />
+      <module name="myshop-cart-server" target="1.8" />
+      <module name="myshop-commons" target="1.8" />
+      <module name="myshop-commons-mapper" target="1.8" />
+      <module name="myshop-commons-service" target="1.8" />
+      <module name="myshop-databases" target="1.8" />
+      <module name="myshop-dependencies" target="1.8" />
+      <module name="myshop-facade" target="1.8" />
+      <module name="myshop-news-server" target="1.8" />
+      <module name="myshop-order-server" target="1.8" />
+      <module name="myshop-pay-server" target="1.8" />
+      <module name="myshop-product-server" target="1.8" />
+      <module name="myshop-producttype-server" target="1.8" />
+      <module name="myshop-user-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

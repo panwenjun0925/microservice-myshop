@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/microservice-myshop.iml" filepath="$PROJECT_DIR$/.idea/microservice-myshop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myshop-address-server/myshop-address-server.iml" filepath="$PROJECT_DIR$/myshop-address-server/myshop-address-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myshop-brand-server/myshop-brand-server.iml" filepath="$PROJECT_DIR$/myshop-brand-server/myshop-brand-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myshop-cart-server/myshop-cart-server.iml" filepath="$PROJECT_DIR$/myshop-cart-server/myshop-cart-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myshop-commons/myshop-commons.iml" filepath="$PROJECT_DIR$/myshop-commons/myshop-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myshop-commons-mapper/myshop-commons-mapper.iml" filepath="$PROJECT_DIR$/myshop-commons-mapper/myshop-commons-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myshop-commons-service/myshop-commons-service.iml" filepath="$PROJECT_DIR$/myshop-commons-service/myshop-commons-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myshop-databases/myshop-databases.iml" filepath="$PROJECT_DIR$/myshop-databases/myshop-databases.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myshop-dependencies/myshop-dependencies.iml" filepath="$PROJECT_DIR$/myshop-dependencies/myshop-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myshop-facade/myshop-facade.iml" filepath="$PROJECT_DIR$/myshop-facade/myshop-facade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myshop-news-server/myshop-news-server.iml" filepath="$PROJECT_DIR$/myshop-news-server/myshop-news-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myshop-order-server/myshop-order-server.iml" filepath="$PROJECT_DIR$/myshop-order-server/myshop-order-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myshop-pay-server/myshop-pay-server.iml" filepath="$PROJECT_DIR$/myshop-pay-server/myshop-pay-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myshop-product-server/myshop-product-server.iml" filepath="$PROJECT_DIR$/myshop-product-server/myshop-product-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myshop-producttype-server/myshop-producttype-server.iml" filepath="$PROJECT_DIR$/myshop-producttype-server/myshop-producttype-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myshop-user-server/myshop-user-server.iml" filepath="$PROJECT_DIR$/myshop-user-server/myshop-user-server.iml" />
+    </modules>
+  </component>
+</project>

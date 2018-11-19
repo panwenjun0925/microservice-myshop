@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/myshop-dependcies/pom.xml" />
+        <option value="$PROJECT_DIR$/myshop-commons/pom.xml" />
+        <option value="$PROJECT_DIR$/myshop-facade/pom.xml" />
+        <option value="$PROJECT_DIR$/myshop-dependencies/pom.xml" />
+        <option value="$PROJECT_DIR$/myshop-commons-mapper/pom.xml" />
+        <option value="$PROJECT_DIR$/myshop-database/pom.xml" />
+        <option value="$PROJECT_DIR$/myshop-commons-service/pom.xml" />
+        <option value="$PROJECT_DIR$/myshop-databases/pom.xml" />
+        <option value="$PROJECT_DIR$/myshop-address-server/pom.xml" />
+        <option value="$PROJECT_DIR$/myshop-product-server/pom.xml" />
+        <option value="$PROJECT_DIR$/myshop-pay-server/pom.xml" />
+        <option value="$PROJECT_DIR$/myshop-news-server/pom.xml" />
+        <option value="$PROJECT_DIR$/myshop-order-server/pom.xml" />
+        <option value="$PROJECT_DIR$/myshop-user-server/pom.xml" />
+        <option value="$PROJECT_DIR$/myshop-producttype-server/pom.xml" />
+        <option value="$PROJECT_DIR$/myshop-cart-server/pom.xml" />
+        <option value="$PROJECT_DIR$/myshop-brand-server/pom.xml" />
+      </list>
+    </option>
+  </component>
+</project>
