@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mapper.ExpressMapper">
+  <resultMap id="BaseResultMap" type="pojo.Express">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="expressId" jdbcType="INTEGER" property="expressid" />
+    <result column="expressName" jdbcType="VARCHAR" property="expressname" />
+    <result column="orderDescribe" jdbcType="VARCHAR" property="orderdescribe" />
+    <result column="charge" jdbcType="REAL" property="charge" />
+    <result column="freeAllowances" jdbcType="REAL" property="freeallowances" />
+    <result column="quotationCost" jdbcType="REAL" property="quotationcost" />
+  </resultMap>
+</mapper>

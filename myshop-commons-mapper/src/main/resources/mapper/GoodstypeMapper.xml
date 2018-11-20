@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mapper.GoodstypeMapper">
+  <resultMap id="BaseResultMap" type="pojo.Goodstype">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="typeId" jdbcType="INTEGER" property="typeid" />
+    <result column="typeName" jdbcType="VARCHAR" property="typename" />
+    <result column="typeParentId" jdbcType="INTEGER" property="typeparentid" />
+    <result column="typePicture" jdbcType="VARCHAR" property="typepicture" />
+    <result column="typeDes" jdbcType="VARBINARY" property="typedes" />
+  </resultMap>
+</mapper>
