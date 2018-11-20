@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.team.commons.mapper.GoodsMapper">
+  <resultMap id="BaseResultMap" type="com.team.facade.pojo.Goods">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="goodsId" jdbcType="INTEGER" property="goodsid" />
+    <result column="goodsName" jdbcType="VARCHAR" property="goodsname" />
+    <result column="goodsShowPrice" jdbcType="REAL" property="goodsshowprice" />
+    <result column="goodsShowPicture" jdbcType="VARCHAR" property="goodsshowpicture" />
+    <result column="isPutaway" jdbcType="INTEGER" property="isputaway" />
+    <result column="goodsDiscount" jdbcType="REAL" property="goodsdiscount" />
+    <result column="goodsRealPrice" jdbcType="REAL" property="goodsrealprice" />
+    <result column="goodsTotal" jdbcType="INTEGER" property="goodstotal" />
+    <result column="goodsTypeId" jdbcType="INTEGER" property="goodstypeid" />
+  </resultMap>
+</mapper>

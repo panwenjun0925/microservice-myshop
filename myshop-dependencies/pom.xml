@@ -25,7 +25,7 @@
 
         <!-- Spring Boot Starter Settings -->
         <boot-dubbo.version>0.2.0</boot-dubbo.version>
-        <boot-mapper.version>2.0.2</boot-mapper.version>
+        <boot-com.team.commons.mapper.version>2.0.2</boot-com.team.commons.mapper.version>
         <boot-pagehelper.version>1.2.5</boot-pagehelper.version>
         <boot-druid.version>1.1.10</boot-druid.version>
 
@@ -52,8 +52,8 @@
             <!-- 自动mapper生成工具 -->
             <dependency>
                 <groupId>tk.mybatis</groupId>
-                <artifactId>mapper-spring-boot-starter</artifactId>
-                <version>${boot-mapper.version}</version>
+                <artifactId>com.team.commons.mapper-spring-boot-starter</artifactId>
+                <version>${boot-com.team.commons.mapper.version}</version>
             </dependency>
             <!-- 分页插件 -->
             <dependency>

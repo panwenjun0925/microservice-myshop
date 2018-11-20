@@ -12,8 +12,8 @@
         <property name="endingDelimiter" value="`"/>
 
         <!-- 配置 tk.mybatis 插件 -->
-        <plugin type="tk.mybatis.mapper.generator.MapperPlugin">
-            <property name="mappers" value="tk.mybatis.mapper.MyMapper"/>
+        <plugin type="tk.mybatis.com.team.commons.mapper.generator.MapperPlugin">
+            <property name="mappers" value="tk.mybatis.com.team.commons.mapper.MyMapper"/>
         </plugin>
 
         <!-- 配置数据库连接 -->
@@ -25,14 +25,14 @@
         </jdbcConnection>
 
         <!-- 配置实体类存放路径 -->
-        <javaModelGenerator targetPackage="pojo" targetProject="src/main/java"/>
+        <javaModelGenerator targetPackage="com.team.facade.pojo" targetProject="src/main/java"/>
 
         <!-- 配置 XML 存放路径 -->
-        <sqlMapGenerator targetPackage="mapper" targetProject="src/main/resources"/>
+        <sqlMapGenerator targetPackage="com.team.commons.mapper" targetProject="src/main/resources"/>
 
         <!-- 配置 DAO 存放路径 -->
         <javaClientGenerator
-                targetPackage="mapper"
+                targetPackage="com.team.commons.mapper"
                 targetProject="src/main/java"
                 type="XMLMAPPER"/>
 
