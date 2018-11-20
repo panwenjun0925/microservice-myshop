@@ -28,6 +28,7 @@
         <mapper-spring-boot-starter.version>2.0.2</mapper-spring-boot-starter.version>
         <boot-pagehelper.version>1.2.5</boot-pagehelper.version>
         <boot-druid.version>1.1.10</boot-druid.version>
+        <redis-version>2.0.4.RELEASE</redis-version>
 
 
         <!-- Commons Settings -->
@@ -49,6 +50,12 @@
                 <artifactId>dubbo-spring-boot-actuator</artifactId>
                 <version>${boot-dubbo.version}</version>
             </dependency>
+            <!--redis-->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-data-redis</artifactId>
+                <version>${redis-version}</version>
+            </dependency>
             <!-- 自动mapper生成工具 -->
             <dependency>
                 <groupId>tk.mybatis</groupId>
@@ -69,7 +76,11 @@
             </dependency>
             <!-- Spring Boot Starter End -->
 
-
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mysql.version}</version>
+            </dependency>
 
             <!-- Commons Begin -->
             <dependency>
